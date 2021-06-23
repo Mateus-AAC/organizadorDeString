@@ -1,3 +1,4 @@
+//nivel 1
 module.exports.organizar = (trs) => {
 	if (typeof trs !== 'string') {
 		return ''
@@ -5,6 +6,7 @@ module.exports.organizar = (trs) => {
 	return trs[0].toUpperCase() + trs.slice(1).toLowerCase()
 }
 
+//nivel 3
 module.exports.organizarArray = palavras => {
 	let resultado = palavras.map(function (trs) {
 		return trs[0].toUpperCase() + trs.slice(1).toLowerCase()
@@ -12,6 +14,7 @@ module.exports.organizarArray = palavras => {
 	return resultado
 }
 
+//nivel 3
 module.exports.organizarMaiusculo = text => {
 	let words = text.toLowerCase().split(" ");
     for (let a = 0; a < words.length; a++) {
