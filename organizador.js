@@ -6,7 +6,7 @@ module.exports.organizar = (trs) => {
 	return trs[0].toUpperCase() + trs.slice(1).toLowerCase()
 }
 
-//nivel 3
+//nivel 2
 module.exports.organizarArray = palavras => {
 	let resultado = palavras.map(function (trs) {
 		return trs[0].toUpperCase() + trs.slice(1).toLowerCase()
