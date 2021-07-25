@@ -7,7 +7,7 @@
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-s
+
 * Você instalou a versão mais recente de `< Node.js >`
 * Você tem uma máquina `<Windows / Linux / Mac>`. 
 
